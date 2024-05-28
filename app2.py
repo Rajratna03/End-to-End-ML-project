@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load the trained Decision Tree model from the pickle file
-with open('model_name.pkl', 'rb') as file:
+with open('svc_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Function to preprocess user inputs
